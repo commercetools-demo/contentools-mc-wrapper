@@ -21,9 +21,10 @@ const config = {
   },
   headers: {
     csp: {
-      'connect-src': ['*.commercetools.app', 'localhost:8080', "'unsafe-eval'"],
+      'connect-src': ['*.commercetools.app', '*.commercetools.com', 'localhost:8080', "'unsafe-eval'"],
       'script-src': [
         '*.commercetools.app',
+        '*.commercetools.com',
         'localhost:8080',
         'cdn.jsdelivr.net',
         'blob:',
