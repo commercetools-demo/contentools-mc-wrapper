@@ -1296,7 +1296,17 @@
     "@emotion/react" "^11.14.0"
     uuid "^11.1.0"
 
-"@commercetools-demo/contentools-types@^1.1.2":
+"@commercetools-demo/contentools-state@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-state/-/contentools-state-1.1.3.tgz#8cb59d519d3a6d77ff29fc839bc3bd0a467c7b0e"
+  integrity sha512-XNEM2AhVhV2ZUidsCxN15RlkORWNXp4cj1K6epqlrJ3/vMjFqRL3alMpNMwlkr49ScETRCIggK/J/VSuXKjVgA==
+  dependencies:
+    "@babel/runtime-corejs3" "^7.28.0"
+    "@commercetools-demo/contentools-types" "^1.1.3"
+    "@emotion/react" "^11.14.0"
+    uuid "^11.1.0"
+
+"@commercetools-demo/contentools-types@^1.1.2", "@commercetools-demo/contentools-types@^1.1.3":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-types/-/contentools-types-1.1.2.tgz#b043289ac744887f011c9a5ea905de443ee54ded"
   integrity sha512-ibHG8sTeT0FQvAtZ/ebNO7JTk+KXKv952fNL0TukVl3pmezHvBNZqrIU9ld57OavCtuCvy3I6tYMvqeGn69XrQ==
