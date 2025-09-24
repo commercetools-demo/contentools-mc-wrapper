@@ -1095,29 +1095,29 @@
     "@babel/runtime" "^7.17.9"
     "@babel/runtime-corejs3" "^7.17.9"
 
-"@commercetools-demo/contentools-content-item-renderer@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-content-item-renderer/-/contentools-content-item-renderer-1.1.2.tgz#1a8c3a6c3eb58d361027d0874d2155097f9556cf"
-  integrity sha512-8IO+HDKF2Pdda1NOvFQeg3YG3s+3/AEZv1c+cLqOdmno0wlw1g1suKZhBgFOwf+vIl2QR1vV2tp+OOaYib70Yg==
+"@commercetools-demo/contentools-content-item-renderer@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-content-item-renderer/-/contentools-content-item-renderer-1.1.5.tgz#71d1d3bee0f8fe9d205dd00503540e1965eaa29a"
+  integrity sha512-CfYzA+zIJu2y2jlneFRk3gASDZpfzK1ZTTO94zTE2Nah21+F3a8CWBY2lYZrSxK7ijk0smqb1LYkQffVjKt+Og==
   dependencies:
     "@babel/runtime-corejs3" "^7.28.0"
-    "@commercetools-demo/contentools-types" "^1.1.2"
-    "@commercetools-demo/contentools-ui-components" "^1.1.2"
+    "@commercetools-demo/contentools-types" "^1.1.5"
+    "@commercetools-demo/contentools-ui-components" "^1.1.5"
     "@emotion/react" "^11.14.0"
     "@tiptap/extension-document" "^3.4.3"
     styled-components "^6.1.19"
 
-"@commercetools-demo/contentools-content-items@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-content-items/-/contentools-content-items-1.1.3.tgz#7ae66a3ebdcb8f087bf97eeb00445c6ee14f20d8"
-  integrity sha512-d6p5luiUWyA0jpoqGrUmuVEyEvD2JdKluEvcDykrU1AGA/P7oeqPL4L+jQLkk4y+v/zeRo4NBWCtopzQGeVsqg==
+"@commercetools-demo/contentools-content-items@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-content-items/-/contentools-content-items-1.1.6.tgz#c6ff8a3baea7fb26eb1f9e4d7967006881c8342e"
+  integrity sha512-GOs+OWzN+mLLBMwKhHV5UrFKuegcN7X2AWUY2x9PoFZ+qxUyCgP6dlK5O+7IX05coLe0c37hdwjxdUdaQ9rq1Q==
   dependencies:
     "@babel/runtime-corejs3" "^7.28.0"
-    "@commercetools-demo/contentools-content-item-renderer" "^1.1.2"
-    "@commercetools-demo/contentools-property-editor" "^1.1.2"
-    "@commercetools-demo/contentools-types" "^1.1.2"
-    "@commercetools-demo/contentools-ui-components" "^1.1.2"
-    "@commercetools-demo/contentools-version-history" "^1.1.2"
+    "@commercetools-demo/contentools-content-item-renderer" "^1.1.5"
+    "@commercetools-demo/contentools-property-editor" "^1.1.5"
+    "@commercetools-demo/contentools-types" "^1.1.5"
+    "@commercetools-demo/contentools-ui-components" "^1.1.5"
+    "@commercetools-demo/contentools-version-history" "^1.1.5"
     "@commercetools-uikit/card" "^20.2.2"
     "@commercetools-uikit/checkbox-input" "^20.2.2"
     "@commercetools-uikit/data-table" "^20.2.1"
@@ -1139,17 +1139,17 @@
     react-router-dom "5.3.4"
     styled-components "^6.1.19"
 
-"@commercetools-demo/contentools-content-pages@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-content-pages/-/contentools-content-pages-1.1.3.tgz#46787530b307e88ee5048ea4c4e63c9387ca3566"
-  integrity sha512-psdkqa7wY0L4BS57DYfSErJFeKh/5oGoR0MhhR+j1R2QUq9eSxTq1g00VTqvYJdXlnSATxAGUEOiHSvDc4KLlg==
+"@commercetools-demo/contentools-content-pages@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-content-pages/-/contentools-content-pages-1.1.6.tgz#50f3b25a0b273b81389f38d70a3947059c39e240"
+  integrity sha512-AqPnMU2U5PHRw3c3GURvWKtbbQTJRlI9e0e2weDe2yAr7HJW45EAoevwaA2jyI78X3xw1wY0LmF67i2wH4NIxw==
   dependencies:
     "@babel/runtime-corejs3" "^7.28.0"
-    "@commercetools-demo/contentools-page-renderer" "^1.1.2"
-    "@commercetools-demo/contentools-property-editor" "^1.1.2"
-    "@commercetools-demo/contentools-types" "^1.1.2"
-    "@commercetools-demo/contentools-ui-components" "^1.1.2"
-    "@commercetools-demo/contentools-version-history" "^1.1.2"
+    "@commercetools-demo/contentools-page-renderer" "^1.1.5"
+    "@commercetools-demo/contentools-property-editor" "^1.1.5"
+    "@commercetools-demo/contentools-types" "^1.1.5"
+    "@commercetools-demo/contentools-ui-components" "^1.1.5"
+    "@commercetools-demo/contentools-version-history" "^1.1.5"
     "@commercetools-uikit/card" "^20.2.2"
     "@commercetools-uikit/data-table" "^20.2.1"
     "@commercetools-uikit/design-system" "^20.2.3"
@@ -1172,31 +1172,31 @@
     react-router-dom "5.3.4"
     styled-components "^6.1.19"
 
-"@commercetools-demo/contentools-content-type-code-editor@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-content-type-code-editor/-/contentools-content-type-code-editor-1.1.2.tgz#7b651d667f4f11d892f1d6fca92d6e36bde63fb7"
-  integrity sha512-QGhEnzXJvaTWuK3+iV8FH6JnGaEHSxHntCnGNqrw1jjb5aOGHN5526Y7LpKq+I6AbvAJOapOsfU2y33oXsaE/Q==
+"@commercetools-demo/contentools-content-type-code-editor@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-content-type-code-editor/-/contentools-content-type-code-editor-1.1.5.tgz#5f181c3ddc638602d403afae5c2ff15374ca1931"
+  integrity sha512-VYl5RAGxpshaSZZ/adZg8l0EkEjIOGFBb/IQfe92CM3UJyhcsbXjkfEMJ/F4pf8i7mWoias4O4A0tkBsAuqjsw==
   dependencies:
     "@babel/runtime-corejs3" "^7.28.0"
     "@babel/standalone" "^7.28.2"
-    "@commercetools-demo/contentools-types" "^1.1.2"
+    "@commercetools-demo/contentools-types" "^1.1.5"
     "@commercetools-uikit/loading-spinner" "^20.2.2"
     "@emotion/react" "^11.14.0"
     "@monaco-editor/react" "^4.7.0"
     country-to-currency "^1.1.0"
     styled-components "^6.0.0"
 
-"@commercetools-demo/contentools-content-types@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-content-types/-/contentools-content-types-1.1.2.tgz#9c9d83dde79c4796c8b636382477915350292e94"
-  integrity sha512-2t2xVazRtF1KGYVSII88oAnrugJ0ixnjOQa0o2AUxooYA94muGHUUVEHqbgtco/yvMdbYV3+SlwcEbLC9DjXxw==
+"@commercetools-demo/contentools-content-types@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-content-types/-/contentools-content-types-1.1.5.tgz#4604e4662af00d6ccafd3e473dc6ac082ecf87bf"
+  integrity sha512-G4feL+R80y+Wbn5qRTice5W77XFqbk4+kOl55aMSTJCq5bIT1JU0SvGyrre47/cz19PceaurRzkSTaSFKHCzZw==
   dependencies:
     "@babel/runtime-corejs3" "^7.28.0"
-    "@commercetools-demo/contentools-content-item-renderer" "^1.1.2"
-    "@commercetools-demo/contentools-content-type-code-editor" "^1.1.2"
-    "@commercetools-demo/contentools-property-editor" "^1.1.2"
-    "@commercetools-demo/contentools-types" "^1.1.2"
-    "@commercetools-demo/contentools-ui-components" "^1.1.2"
+    "@commercetools-demo/contentools-content-item-renderer" "^1.1.5"
+    "@commercetools-demo/contentools-content-type-code-editor" "^1.1.5"
+    "@commercetools-demo/contentools-property-editor" "^1.1.5"
+    "@commercetools-demo/contentools-types" "^1.1.5"
+    "@commercetools-demo/contentools-ui-components" "^1.1.5"
     "@commercetools-uikit/card" "^20.2.2"
     "@commercetools-uikit/checkbox-input" "^20.2.2"
     "@commercetools-uikit/data-table" "^20.2.1"
@@ -1218,24 +1218,23 @@
     react-router-dom "5.3.4"
     styled-components "^6.1.19"
 
-"@commercetools-demo/contentools-page-renderer@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-page-renderer/-/contentools-page-renderer-1.1.2.tgz#b37052e3321aac4d6b1b3c9ce373d57711410d71"
-  integrity sha512-hYsbvOTHvs0mVUpC5a+R0lOCt5/fLaCt01YIJE3ySNuT8ijHShgG4bMuPrQeVoOjeGtfZH8IJrglQ/OJ2MokKA==
+"@commercetools-demo/contentools-page-renderer@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-page-renderer/-/contentools-page-renderer-1.1.5.tgz#dd8656206f4bb89c897cbc66cc958f3c22a82eca"
+  integrity sha512-qXi+eF0aHIp5E5W49Ntt//VycV3123zVhLrCF8ZZY5g/LKQ8QtH6dbhmiMIidbBfpaSPOeqQfn7vkJcYWDRSTg==
   dependencies:
     "@babel/runtime-corejs3" "^7.28.0"
-    "@commercetools-demo/contentools-content-item-renderer" "^1.1.2"
-    "@commercetools-demo/contentools-types" "^1.1.2"
-    "@commercetools-demo/contentools-ui-components" "^1.1.2"
+    "@commercetools-demo/contentools-content-item-renderer" "^1.1.5"
+    "@commercetools-demo/contentools-types" "^1.1.5"
+    "@commercetools-demo/contentools-ui-components" "^1.1.5"
     "@emotion/react" "^11.14.0"
     styled-components "^6.1.19"
 
-"@commercetools-demo/contentools-property-editor-wisiwyg@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-property-editor-wisiwyg/-/contentools-property-editor-wisiwyg-1.1.2.tgz#dafab80b655eee64e334e230fb86e2f2847c676e"
-  integrity sha512-EX4ytRpd1sq5TiGW6LFabwY2TJyOSMDAUCbhkF81JVI4om33/oF7YOCl9brvXoPXUg2dT68rcmEQyPs2m06Spg==
+"@commercetools-demo/contentools-property-editor-wisiwyg@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-property-editor-wisiwyg/-/contentools-property-editor-wisiwyg-1.1.5.tgz#1d320878c1c0f169da3dd421f55e7be305d30810"
+  integrity sha512-cWgn/FR6D4gHAB19oqGaaGyc77dPg6ZfFQK8fDJn9nMr0wMmC/zFOiYqE9imm6rn7YQ9OR0DuYPpwMpUEtrr1Q==
   dependencies:
-    "@commercetools-demo/contentools-state" "^1.1.2"
     "@floating-ui/react" "^0.27.16"
     "@radix-ui/react-dropdown-menu" "^2.1.16"
     "@radix-ui/react-popover" "^1.1.15"
@@ -1257,15 +1256,15 @@
     react-hotkeys-hook "^5.1.0"
     styled-components "^6.1.19"
 
-"@commercetools-demo/contentools-property-editor@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-property-editor/-/contentools-property-editor-1.1.2.tgz#f89daed327c6cbf8c1704b1e81f7b80ae24091a5"
-  integrity sha512-EAlys5Qps3Um/87NItxF14pXYxVrMmyX8+OsDJyektijkgWXPzUY8Og2pTydb6Ur2gVcJx2wd8v6oi2+Fdsn2g==
+"@commercetools-demo/contentools-property-editor@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-property-editor/-/contentools-property-editor-1.1.5.tgz#05001b148fd1c9139ce19aaff3a33a33e2caae32"
+  integrity sha512-RJmN8ZJeEjMfIgD7U4S/vuu4zFysvWDBvu5w2HRJoi++1V9QKWlcdsugIrtV53VBpuUZw+yf2saSCPs8m7uLqg==
   dependencies:
     "@babel/runtime-corejs3" "^7.28.0"
-    "@commercetools-demo/contentools-property-editor-wisiwyg" "^1.1.2"
-    "@commercetools-demo/contentools-types" "^1.1.2"
-    "@commercetools-demo/contentools-ui-components" "^1.1.2"
+    "@commercetools-demo/contentools-property-editor-wisiwyg" "^1.1.5"
+    "@commercetools-demo/contentools-types" "^1.1.5"
+    "@commercetools-demo/contentools-ui-components" "^1.1.5"
     "@commercetools-uikit/card" "^20.2.2"
     "@commercetools-uikit/checkbox-input" "^20.2.2"
     "@commercetools-uikit/data-table" "^20.2.1"
@@ -1286,38 +1285,28 @@
     styled-components "^6.1.19"
     yup "^1.6.1"
 
-"@commercetools-demo/contentools-state@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-state/-/contentools-state-1.1.2.tgz#0ee72aaf467d40e57696c94b8a39158b6d76e582"
-  integrity sha512-fnTGFvhxhLcfuhB21lTAKrYj59XiYpZPNZj0zStDzCS8J6fASyZ0k/TDfmh1t7XO+e4Oo/1k9+aq/jk8A2kwYw==
+"@commercetools-demo/contentools-state@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-state/-/contentools-state-1.1.5.tgz#973eb9823dbf74c8b4fb2ce0eff4ba01fc0a3106"
+  integrity sha512-v7RtDs3xFwSM/VV7+uWGDzZqbOJ75L7bRkfDU4vULH3xfRkswBVIbNl0NrgPKxb9gzvD7JfiJllCaA0Y/NhIpA==
   dependencies:
     "@babel/runtime-corejs3" "^7.28.0"
-    "@commercetools-demo/contentools-types" "^1.1.2"
+    "@commercetools-demo/contentools-types" "^1.1.5"
     "@emotion/react" "^11.14.0"
     uuid "^11.1.0"
 
-"@commercetools-demo/contentools-state@^1.1.3":
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-state/-/contentools-state-1.1.3.tgz#8cb59d519d3a6d77ff29fc839bc3bd0a467c7b0e"
-  integrity sha512-XNEM2AhVhV2ZUidsCxN15RlkORWNXp4cj1K6epqlrJ3/vMjFqRL3alMpNMwlkr49ScETRCIggK/J/VSuXKjVgA==
+"@commercetools-demo/contentools-types@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-types/-/contentools-types-1.1.5.tgz#447840516070d8022c3bddc54ceae792aa911cfd"
+  integrity sha512-6tHl4bwZNu5+B/aTpUvxWoPhfoqXdut2barK4WtD3FJPLOWiYMAU4GY2dZbhinQ3N9dcO5n9TPrV5MOh5LR9ag==
+
+"@commercetools-demo/contentools-ui-components@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-ui-components/-/contentools-ui-components-1.1.5.tgz#dd3ad3e2b1ea8a1425c2ca45eb0a643cc0f375d3"
+  integrity sha512-GO7U/ZhnBe+9zuPxZjdT7bZavz1Tpl7uSyoVqIBvvw8p8WNO2rptHSQrRipw0Ce/ZQ1evnwk8AvEnIXrYBtd8A==
   dependencies:
     "@babel/runtime-corejs3" "^7.28.0"
-    "@commercetools-demo/contentools-types" "^1.1.3"
-    "@emotion/react" "^11.14.0"
-    uuid "^11.1.0"
-
-"@commercetools-demo/contentools-types@^1.1.2", "@commercetools-demo/contentools-types@^1.1.3":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-types/-/contentools-types-1.1.2.tgz#b043289ac744887f011c9a5ea905de443ee54ded"
-  integrity sha512-ibHG8sTeT0FQvAtZ/ebNO7JTk+KXKv952fNL0TukVl3pmezHvBNZqrIU9ld57OavCtuCvy3I6tYMvqeGn69XrQ==
-
-"@commercetools-demo/contentools-ui-components@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-ui-components/-/contentools-ui-components-1.1.2.tgz#817333f03a433c453b76ea611e578c0c4dadf0e6"
-  integrity sha512-3Ei/TBTq2ifFBBGnOrz05h/tx4pwWUibIF7cYGlgXvx9wpk3Cf8gxsL+t2Nyvnb1oQTjC0s1QgcSo/Ta7qrC2Q==
-  dependencies:
-    "@babel/runtime-corejs3" "^7.28.0"
-    "@commercetools-demo/contentools-types" "^1.1.2"
+    "@commercetools-demo/contentools-types" "^1.1.5"
     "@commercetools-uikit/card" "^20.2.2"
     "@commercetools-uikit/flat-button" "^20.2.1"
     "@commercetools-uikit/icon-button" "^20.2.1"
@@ -1331,14 +1320,14 @@
     "@emotion/react" "^11.14.0"
     styled-components "^6.1.19"
 
-"@commercetools-demo/contentools-version-history@^1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-version-history/-/contentools-version-history-1.1.2.tgz#31ee13d8e280624a2173f57e10efdb6e8988caca"
-  integrity sha512-pMnMGQ74A40z5x7hVBx1VW2D303mMdt8UXySxAwVjdsJR3WGw+71eyp9dVfCuvhv7oI+5Bnque/r64QIdkB/SQ==
+"@commercetools-demo/contentools-version-history@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@commercetools-demo/contentools-version-history/-/contentools-version-history-1.1.5.tgz#fe51106fd53ee3a717a234cc2f2010996d11e08f"
+  integrity sha512-JJOIDhVPz0Y6GXFXgJPeihgnhRzRMSJMgi3qj2PiaGCRTn52OyjRwk+dZ6kRvzBAq1x3sW5KeV0FejIO2BoMBw==
   dependencies:
     "@babel/runtime-corejs3" "^7.28.0"
-    "@commercetools-demo/contentools-types" "^1.1.2"
-    "@commercetools-demo/contentools-ui-components" "^1.1.2"
+    "@commercetools-demo/contentools-types" "^1.1.5"
+    "@commercetools-demo/contentools-ui-components" "^1.1.5"
     "@commercetools-uikit/card" "^20.2.2"
     "@commercetools-uikit/primary-button" "^20.2.2"
     "@commercetools-uikit/secondary-button" "^20.2.2"
