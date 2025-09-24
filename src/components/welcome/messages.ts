@@ -3,12 +3,12 @@ import { defineMessages } from 'react-intl';
 export default defineMessages({
   title: {
     id: 'Welcome.title',
-    defaultMessage: 'Develop applications for the Merchant Center',
+    defaultMessage: 'Contenttools',
   },
   subtitle: {
     id: 'Welcome.subtitle',
     defaultMessage:
-      'Welcome to Custom Applications! To get started, inspect the source code to get familiar with the setup, the folder structure, the development tools, etc. and read the README file for additional information.',
+      'Welcome to Contenttools! Manage your content pages, items, and types.',
   },
   cardDocumentationTitle: {
     id: 'Welcome.cardDocumentationTitle',

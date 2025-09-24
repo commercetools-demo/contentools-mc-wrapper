@@ -1,17 +1,18 @@
-import type { ReactNode } from 'react';
-import { Switch, Route, useRouteMatch } from 'react-router-dom';
+import { type ReactNode } from 'react';
+import { Switch, Route, useRouteMatch, useHistory } from 'react-router-dom';
 import Spacings from '@commercetools-uikit/spacings';
 import Welcome from './components/welcome';
 import ContentItem from '@commercetools-demo/contentools-content-items';
 import ContentPage from '@commercetools-demo/contentools-content-pages';
 import ContentType from '@commercetools-demo/contentools-content-types';
 import { useApplicationContext } from '@commercetools-frontend/application-shell-connectors';
+import { ListIcon } from '@commercetools-uikit/icons';
 type ApplicationRoutesProps = {
   children?: ReactNode;
 };
 const ApplicationRoutes = (_props: ApplicationRoutesProps) => {
   const match = useRouteMatch();
-
+  const history = useHistory();
   const { environment, dataLocale } = useApplicationContext<{
     CMS_API_URL: string;
     dataLocale: string;
@@ -37,6 +38,13 @@ const ApplicationRoutes = (_props: ApplicationRoutesProps) => {
             businessUnitKey={'default'}
             locale={dataLocale ?? 'en-US'}
             parentUrl={`${match.url.slice(1)}/pages`}
+            backButton={{
+              icon: <ListIcon />,
+              label: 'Back',
+              onClick: () => {
+                history.goBack();
+              },
+            }}
           />
         </Route>
         <Route path={`${match.path}/items`}>
@@ -45,6 +53,13 @@ const ApplicationRoutes = (_props: ApplicationRoutesProps) => {
             businessUnitKey={'default'}
             locale={dataLocale ?? 'en-US'}
             parentUrl={`${match.url.slice(1)}/items`}
+            backButton={{
+              icon: <ListIcon />,
+              label: 'Back',
+              onClick: () => {
+                history.goBack();
+              },
+            }}
           />
         </Route>
         <Route path={`${match.path}/types`}>

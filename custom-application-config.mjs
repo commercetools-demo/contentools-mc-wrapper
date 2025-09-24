@@ -43,7 +43,7 @@ const config = {
   },
   icon: '${path:@commercetools-frontend/assets/application-icons/rocket.svg}',
   mainMenuLink: {
-    defaultLabel: 'Contenttools Pages',
+    defaultLabel: 'Contenttools',
     labelAllLocales: [],
     permissions: [PERMISSIONS.View],
   },

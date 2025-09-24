@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react';
+import { useMemo, type ReactNode } from 'react';
 import { useRouteMatch, Link as RouterLink } from 'react-router-dom';
 import { useIntl } from 'react-intl';
 import Constraints from '@commercetools-uikit/constraints';
@@ -8,7 +8,6 @@ import Spacings from '@commercetools-uikit/spacings';
 import Text from '@commercetools-uikit/text';
 import messages from './messages';
 import styles from './welcome.module.css';
-import WebDeveloperSvg from './web-developer.svg';
 
 type TWrapWithProps = {
   children: ReactNode;
@@ -68,20 +67,17 @@ const Welcome = () => {
   const match = useRouteMatch();
   const intl = useIntl();
 
+  const path = useMemo(() => {
+    if (match.url.endsWith('/')) {
+      return match.url.slice(0, -1);
+    }
+    return match.url;
+  }, [match.url]);
+
   return (
     <Constraints.Horizontal max={16}>
       <Spacings.Stack scale="xl">
         <Text.Headline as="h1" intlMessage={messages.title} />
-        <div>
-          <div className={styles.imageContainer}>
-            <img
-              alt="web developer"
-              src={WebDeveloperSvg}
-              width="100%"
-              height="100%"
-            />
-          </div>
-        </div>
 
         <Spacings.Stack scale="l">
           <Text.Subheadline as="h4" intlMessage={messages.subtitle} />
@@ -93,17 +89,17 @@ const Welcome = () => {
             <InfoCard
               title={intl.formatMessage(messages.cardPagesTitle)}
               content={intl.formatMessage(messages.cardPagesContent)}
-              linkTo={`${match.url}/pages`}
+              linkTo={`${path}/pages`}
             />
             <InfoCard
               title={intl.formatMessage(messages.cardItemsTitle)}
               content={intl.formatMessage(messages.cardItemsContent)}
-              linkTo={`${match.url}/items`}
+              linkTo={`${path}/items`}
             />
             <InfoCard
               title={intl.formatMessage(messages.cardTypesTitle)}
               content={intl.formatMessage(messages.cardTypesContent)}
-              linkTo={`${match.url}/types`}
+              linkTo={`${path}/types`}
             />
           </Grid>
         </Spacings.Stack>
