@@ -13,10 +13,12 @@ type ApplicationRoutesProps = {
 const ApplicationRoutes = (_props: ApplicationRoutesProps) => {
   const match = useRouteMatch();
   const history = useHistory();
-  const { environment, dataLocale } = useApplicationContext<{
+  const { environment, dataLocale, project } = useApplicationContext<{
     CMS_API_URL: string;
     dataLocale: string;
   }>();
+
+  console.log('project', match);
 
   /**
    * When using routes, there is a good chance that you might want to
@@ -42,7 +44,7 @@ const ApplicationRoutes = (_props: ApplicationRoutesProps) => {
               icon: <ListIcon />,
               label: 'Back',
               onClick: () => {
-                history.goBack();
+                history.push(match.url);
               },
             }}
           />
@@ -57,7 +59,7 @@ const ApplicationRoutes = (_props: ApplicationRoutesProps) => {
               icon: <ListIcon />,
               label: 'Back',
               onClick: () => {
-                history.goBack();
+                history.push(match.url);
               },
             }}
           />
