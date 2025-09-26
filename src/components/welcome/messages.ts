@@ -3,12 +3,12 @@ import { defineMessages } from 'react-intl';
 export default defineMessages({
   title: {
     id: 'Welcome.title',
-    defaultMessage: 'Contenttools',
+    defaultMessage: 'Contentools',
   },
   subtitle: {
     id: 'Welcome.subtitle',
     defaultMessage:
-      'Welcome to Contenttools! Manage your content pages, items, and types.',
+      'Welcome to Contentools! Manage your content pages, items, and types.',
   },
   cardDocumentationTitle: {
     id: 'Welcome.cardDocumentationTitle',
